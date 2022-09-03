@@ -15,8 +15,8 @@ public class Agente {
 		String tipoDeMonedaEx; // almacena moneda extrangera...dollar, euro...etcc
 		double cantidad;       // cantidad de dinero aconvertir
 		
-		String[] unidades={ "Moneda"};
-		String[] monedas={"Peso argentino"}; //, "pesos Chilenos","Soles","pesos colombianos","reales"};
+		String[] unidades={ "Moneda","Metro a pulgadas","Grados C a F"};
+		String[] monedas={"Peso argentino","pesos Chilenos","Soles","pesos colombianos","reales"}; //, "pesos Chilenos","Soles","pesos colombianos","reales"};
 		String[] monedasEx=      {"Dolar","Euros","Libras","Yen japones", "Sul Coreano"};
 		double[] tablaDeValores= {135.54 , 897.60,    3.84, 4344.55     ,0.19};
 		boolean sigue=true;
