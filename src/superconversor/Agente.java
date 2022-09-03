@@ -61,8 +61,9 @@ public class Agente {
 		       	int continua=JOptionPane.showConfirmDialog(null, "Desea consitnuar?");
 		       	//System.out.println(continua);
 		       	
-		       	if (continua==1) {
+		       	if (continua==1 || continua==2) {
 		       		sigue=false;
+		       		System.out.println("se termino ");
 		       	}
 			}
 		System.exit(0);
